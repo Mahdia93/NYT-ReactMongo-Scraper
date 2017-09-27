@@ -25,8 +25,8 @@ app.use(express.static("./public"));
 
 // -------------------------------------------------
 
-// MongoDB Configuration configuration (Change this URL to your own DB)
-mongoose.connect("mongodb://heroku_41njf0v6:ho7mjcv4ejq4etq0nsce6qcbka@ds135532.mlab.com:35532/heroku_41njf0v6");
+
+mongoose.connect("mongodb://localhost/Article");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
