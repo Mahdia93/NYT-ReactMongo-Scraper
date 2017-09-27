@@ -1,27 +1,19 @@
-// Include Main React dependencies
+// Include the Main React Dependencies
+import React from "react";
+import ReactDOM from "react-dom";
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+// Implementing very simple routing for single-page app.
+import { BrowserRouter, Route } from "react-router-dom";
 
+// Include the main Main Component
+import Main from "./components/Main";
 
-// Grab the proeprty associated with the Router
-var Router = require('react-router').Router
-
-// Grabs the Routes
-var routes = require('./config/routes');
-
-
-// Include React components
-
-var Main = require('./Components/main.js');
-
-
+// Render main route.
 ReactDOM.render(
-
-	<div className ='main-container'>
-
-		<Main />
-
-	</div>,
-	document.getElementByID('app')
-)
+	(
+		<BrowserRouter>
+			<Route path="/" component={Main} />
+		</BrowserRouter>
+	),
+	document.getElementById("app")
+);

@@ -18,25 +18,21 @@
   },
   "homepage": "https://github.com/Mahdia93/NYT-ReactMongo-Scraper#readme",
   "dependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
-    "body-parser": "^1.15.2",
-    "cheerio": "^0.22.0",
-    "express": "^4.14.0",
-    "mongoose": "^4.6.0",
-    "morgan": "^1.7.0",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "react-router": "^2.7.0",
-    "request": "^2.74.0",
-    "webpack-dev-server": "^1.15.1"
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.8.2",
+    "react": "^0.14.3",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "webpack": "^1.13.2"
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.13.1"
   }
 }

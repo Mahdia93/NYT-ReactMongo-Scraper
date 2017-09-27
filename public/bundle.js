@@ -46,7 +46,10 @@
 
 	(function webpackMissingModule() { throw new Error("Cannot find module \"./app/app.js\""); }());
 	(function webpackMissingModule() { throw new Error("Cannot find module \"./app.js\""); }());
-	(function webpackMissingModule() { throw new Error("Cannot find module \"/Users/jimmiejackson/Desktop/Bootcamp/Homework/Assignment19/nytreact/bundle.js\""); }());
+	(function webpackMissingModule() { throw new Error("Cannot find module \"/Users/mahdia/Class Homework/NYT-ReactMongo-Scraper/public/bundle.js\""); }());
+
+
+
 
 
 /***/ }
